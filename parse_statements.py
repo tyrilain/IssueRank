@@ -68,7 +68,7 @@ def main():
     failed = []
     
     # Iterate through IDs to parse
-    with open(base_folder+'done0910_8pm.txt', 'rb') as fh:
+    with open(base_folder+'CA_statements.txt', 'rb') as fh:
         filelist = fh.read()
         IDs = filelist.split()
         

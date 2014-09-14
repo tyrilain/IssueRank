@@ -42,7 +42,8 @@ def main():
     # Calculate statements left to get
     statements_to_get_set = statements - done_statements
     statements_to_get = list(statements_to_get_set)
-
+    
+    print 'Statements done: %i' % len(done_statements)
     print 'Statements to get: %i' % len(statements_to_get)
     
     
